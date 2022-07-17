@@ -1,1 +1,2 @@
 A project to create a landing pagw with various styles. The project utilises both HTML and CSS to create and style the landing page.
+Additionally, flexbox model has been used to create the landing page.
