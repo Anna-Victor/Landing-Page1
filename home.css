@@ -1,0 +1,175 @@
+/* css for the container class */
+.container {
+    display:flex;
+    background-color:grey;
+    flex-direction:column;
+    flex-shrink:0;
+}   
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    margin:0px 48px;
+}
+
+.logo {
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.rightlinks ul {
+    display:flex;
+    align-items: center;
+    gap:16px;
+    list-style-type:none;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+.headertexts {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    margin-bottom:20px;
+}
+
+.Leftside {
+    width:600px;
+}
+
+input {
+    width:280px;
+    height:100px;
+    background-color:lightgrey;
+    border:none;
+    text-align:center;
+}
+
+button {
+    background-color:blue;
+    color:white;
+    border:none;
+    border-radius:4px;
+}
+
+/* body */
+    /* Part1 */
+.body {
+    display:flex;
+    flex-direction:column;
+}
+
+.body .Part1 {
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+}
+
+.title {
+    display:flex;
+    justify-content:center;
+    font-size:18px;
+    padding:16px;
+}
+
+.information {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:24px;
+    padding:16px;
+}
+
+.info input {
+    background-color:white; 
+    border: 2px solid blue;
+    border-radius:8px; 
+    width:100px;  
+}
+
+.info {
+    max-width:150px;
+    flex:1;
+}
+
+    /* Part2 */
+.Part2 {
+    display:flex;
+    background-color:lightgrey;
+    flex-direction:column;
+}  
+ 
+.Inspiration {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.Inspiration p {
+    text-align:justify;
+    font-size:20px; 
+    padding:0px 230px;
+}
+ #author {
+    text-align:right;
+    font-weight:bold;
+
+ }
+
+    /* Part3 */
+.Part3 {
+    display:flex;
+    background-color:white;
+    justify-content:center;
+    align-items:center;
+    padding:16px;
+    height:120px;
+}
+
+.pop-up {
+    display:flex;
+    background-color:blue;
+    align-items:center;
+    border-radius:4px;
+    gap:24px;
+    padding:0px 40px;
+}
+
+.pop-up button {
+    border:1px solid white;
+}
+
+.leftpop h6 {
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    color:white;
+    margin-top:16px;
+}
+.leftpop p {
+    font-size:12px;
+    color:white;
+    margin-top:0px;
+}
+
+    /* Footer */
+.footer {
+    display:flex;
+    position:fixed;
+    background-color:grey;
+    bottom:0;
+    left:8px;
+    right:8px;
+    justify-content:center;
+}
+
+body {
+    background-color:black;
+    font-family:'Times New Roman';
+}
